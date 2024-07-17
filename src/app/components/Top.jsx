@@ -1,6 +1,6 @@
 "use client";
 import { ArrowUpIcon, ArrowDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 export default function Top() {
   const [location, setlocation] = useState("down");
   const up = () => {
@@ -8,6 +8,7 @@ export default function Top() {
     setlocation("up");
    
   };
+  
   const down = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     setlocation("down");

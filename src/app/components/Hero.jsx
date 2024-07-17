@@ -4,6 +4,7 @@ import Typee from "./typeanimation";
 import "./hero.css";
 import Image from "next/image";
 import { useEffect } from "react";
+import { TypeAnimation } from "react-type-animation";
 export default function Hero() {
 
   const mailer=(e)=>{
@@ -16,6 +17,13 @@ export default function Hero() {
         <h1>
           <span className="hello"> Hello, I'm </span>
           <br />
+          {/* <TypeAnimation
+        sequence={["Iam",1000,"",1000]}
+        wrapper="span"
+        speed={50}
+        repeat={Infinity}
+      /> */}
+     
           <Typee />
         </h1>
         <p>
