@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Hero() {
 
   const mailer=(e)=>{
-    window.location.href="mailto:no-reply@example.com";
+    window.location.href="mailto:ethanferrao04@gmail.com";
     e.preventDefault();
   }
   return (
