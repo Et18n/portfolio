@@ -75,6 +75,15 @@ const project_data = [
     prewUrl: "https://clever-caramel-3bd8b5.netlify.app/",
     tag: ["All", "Shop"],
   },
+  {
+    id: 9,
+    title: "Space-Explore Landing Page ",
+    description: "Designed and developed a visually stunning space exploration landing page with an immersive user experience. The page features a sleek, modern aesthetic with a dark cosmic theme, interactive elements, and smooth navigation. ",
+    imgUrl: "images/projects/space-explore.png",
+    gitUrl: "https://github.com/Et18n/space-explore",
+    prewUrl: "https://space-explore-nu.vercel.app/",
+    tag: ["All", "Shop"],
+  },
   
 ];
 

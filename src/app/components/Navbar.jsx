@@ -18,9 +18,9 @@ export default function Navbar() {
         <div className="flex flex-row justify-between w-[95vw]">
           <Link
             href={"/"}
-            className="uppercase font-[900] text-3xl text-center ml-[4rem] md:ml-8 w-full md:text-xl md:text-start"
+            className=" font-[900] text-3xl text-center ml-[4rem] md:ml-8 w-full md:text-xl md:text-start"
           >
-            Logo
+            ethanferrao
           </Link>
           <div className="mobile-menu block md:hidden ">
             {!navOpen ? (
